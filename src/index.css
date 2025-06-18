@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+    /* Colores */
+    --color-cta-background: #FFD700;
+    --color-cta-background-hover: #E6C200;
+    --color-cta-foreground: #0B132B;
+    --color-azul-oscuro: #1A1A40;
+    --color-gris-claro: #EDEDF9;
+    --color-gris-oscuro: #4B4B65;
+    --color-bg-card: #2C2C5E;
+    --color-icon-card: #7BC9FF;
+    --color-card: #C4C4DD;
+
+
+    /* Fuentes */
+    --font-playfair-display: 'playfair-display', system-ui, sans-serif;
+    --font-inter: 'Inter', system-ui, sans-serif;
+}
+
+@font-face {
+    font-family: 'playfair-display';
+    src: url(/fonts/PlayfairDisplay.woff2) format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/inter.woff2) format('woff2');
+    font-weight: 400 600;
+    font-display: swap;
+}
