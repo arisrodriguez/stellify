@@ -30,7 +30,7 @@ El usuario selecciona una fecha, una hora y un título personalizado. A partir d
 ## 📫 Contacto
 
 ¿Tienes ideas, sugerencias o quieres usar Stellify para un regalo especial?  
-Puedes escribirme a través de [mi sitio web](https://a-r.io) o encontrarme en [LinkedIn](https://www.linkedin.com/in/aristides-rodriguez-pa/).
+Puedes escribirme a través de [mi sitio web](https://a-r-dev.vercel.app/) o encontrarme en [LinkedIn](https://www.linkedin.com/in/aristides-rodriguez-pa/).
 
 ## License
 
