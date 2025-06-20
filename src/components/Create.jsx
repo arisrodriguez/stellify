@@ -28,7 +28,7 @@ export const Create = () => {
                 </div>
 
                 {/* Formulario */}
-                <div className="max-w-[1000px] mx-auto px-4">
+                <div className="mt-20 max-w-[1000px] mx-auto px-4">
                     <form
                         action=""
                         className="flex flex-col w-full items-center space-y-4 md:space-y-0 md:grid md:grid-cols-2 md:gap-6"
