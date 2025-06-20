@@ -22,7 +22,7 @@ export const Create = () => {
                     <h1 className="font-playfair-display text-white text-2xl md:text-3xl font-bold ">
                         Nuestro cielo
                     </h1>
-                    <p className="font-inter text-gris-claro font-normal text-base md:text-xl mt-6 max-w-[800px]">
+                    <p className="font-inter  font-normal text-gris-claro text-base md:text-xl mt-6 max-w-[800px]">
                         El inicio de una historia, bajo un mismo cielo.
                     </p>
                 </div>
@@ -42,6 +42,8 @@ export const Create = () => {
                                 Nombre de la constelación
                             </label>
                             <input
+                                id="title"
+                                name="title"
                                 type="text"
                                 placeholder="Nombre de la constelación"
                                 className="w-full p-2 mt-4 rounded-lg bg-gris-claro text-gris-oscuro font-inter"
@@ -56,6 +58,8 @@ export const Create = () => {
                                 Lugar del encuentro
                             </label>
                             <input
+                                id="place"
+                                name="place"
                                 type="text"
                                 placeholder="Cinta costera, panamá"
                                 className="w-full p-2 mt-4 rounded-lg bg-gris-claro text-gris-oscuro font-inter"
@@ -70,6 +74,8 @@ export const Create = () => {
                                 Fecha especial
                             </label>
                             <input
+                                id="date"
+                                name="date"
                                 type="date"
                                 placeholder="mm-dd-aaaa"
                                 className="w-full p-2 mt-4 rounded-lg bg-gris-claro text-gris-oscuro font-inter"
@@ -78,12 +84,30 @@ export const Create = () => {
 
                         <div className="flex flex-col w-full">
                             <label
+                                htmlFor="hour"
+                                className="text-left text-white text-base font-inter font-semibold"
+                            >
+                                Hora
+                            </label>
+                            <input
+                                id="hour"
+                                name="hour"
+                                type="time"
+                                placeholder="08:00 PM"
+                                className="w-full p-2 mt-4 rounded-lg bg-gris-claro text-gris-oscuro font-inter"
+                            />
+                        </div>
+
+                        <div className="w-full col-span-2">
+                            <label
                                 htmlFor="description"
                                 className="text-left text-white text-base font-inter font-semibold"
                             >
                                 Descripción
                             </label>
                             <input
+                                id="description"
+                                name="description"
                                 type="text"
                                 placeholder="Nuestro primer viaje a la playa"
                                 className="w-full p-2 mt-4 rounded-lg bg-gris-claro text-gris-oscuro font-inter"
