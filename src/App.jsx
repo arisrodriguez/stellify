@@ -1,15 +1,15 @@
 import { Menu } from "./components/Menu";
 import { Hero } from "./components/Hero";
-import { How } from "./components/how";
+import { How } from "./components/How";
 import { Examples } from "./components/Examples";
 import { Create } from "./components/Create";
 import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Menu />
-      < Hero />
+      <Hero />
       <How />
       <Examples />
       <Create />
