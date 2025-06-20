@@ -20,14 +20,16 @@
 
 @font-face {
     font-family: 'playfair-display';
-    src: url(/fonts/PlayfairDisplay.woff2) format('woff2');
+    src: url('/fonts/PlayfairDisplay.woff2') format('woff2');
     font-weight: 700;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url(/fonts/inter.woff2) format('woff2');
+    src: url('/fonts/InterVariable.woff2') format('woff2-variations');
     font-weight: 400 600;
+    font-style: normal;
     font-display: swap;
 }
